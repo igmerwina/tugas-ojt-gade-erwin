@@ -1,4 +1,4 @@
-# Tugas OJT Gade 01-2020
+# Tugas OJT Gade 012020
 ## I Gusti Made Erwin A
 
 Requirement: 
@@ -14,5 +14,10 @@ Requirement:
 ---
 
 Penjelasan dari tiap file & fungsi terdapat di dalam file 
+
+---
+Screenshoot Program: 
+
+![screenshot](https://user-images.githubusercontent.com/8059548/71680497-d9d5f200-2dbc-11ea-8386-0da547e9d1ab.PNG)
 
 Happy reading :blush: :rocket:	
