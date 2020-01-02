@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <style>
+    body {
+      background: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/diagonal_striped_brick.png');
+      background-repeat: repeat;
+    }
+  </style>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <div class="container"><br>
+    <div class="container my-auto">
+      <h1 style="align-items: center;">Data Diri</h1>
+      <table class="table">
+        <caption>Data Diri - txt to db - @igmerwina - Tugas OJT Pegadaian 012020</caption>
+        <thead class="thead-light">
+          <tr>
+            <th scope="col">No. Ktp</th>
+            <th scope="col">Nama</th>
+            <th scope="col">Jenis Kelamin</th>
+            <th scope="col">Alamat</th>
+          </tr>
+        </thead>
+        {% for row in rows%}
+        <tbody>
+          <tr class="table-light">
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+            <td>{{ row[2] }}</td>
+            <td>{{ row[3] }}</td>
+          </tr>
+        </tbody>
+        {% endfor %}
+      </table>
+    </div>
+  </div>
+
+</body>
+
+</html>
